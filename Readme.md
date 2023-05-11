@@ -1,0 +1,1 @@
+Este é um site criado apenas para mostrar algus produtos, valores, informações sobre a vendedora e links que levam direto para o Instagram ou WhatsApp da loja. Estou usando apenas HTML e CSS porém mais pra frente, pretendo adicionar sistema de compra diretamente no site.
