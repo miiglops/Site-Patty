@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentes - Patty Cestas e Presentes</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(226, 143, 187);
+            color: white;
+            padding: 0 20px;
+        }
+        
+        nav ul{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-weight: bold ;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            color: white;
+            border: 10px solid palevioletred;
+            background-color: palevioletred;
+            border-radius: 10px;
+            padding: 0 10px;
+        }
+        
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        
+        nav li{
+            border: 2px solid #e23a6b;
+            background-color: #e23a6b;
+            border-radius: 10px;
+            width: 150px;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: tranform 0.8s;
+        }
+        
+        nav li:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+
+        header img{
+            height: 300px;
+            width: 300px;
+            border-radius: 90%
+        }
+        
+        .centro{
+            align-items: center;
+            text-align: center;
+        }
+        
+        #centro{
+            text-align: center;
+        }
+        header h1{
+            text-align: center;
+            color: black;
+            font-weight: bold;
+        }
+        
+        main h2{
+            font-weight: bold;
+            font-size: xx-large;
+            border: 1px solid #e23a6b;
+            background-color: #e23a6b;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        header h2{
+            text-align: center;
+            color: black;
+        }
+        
+        p{
+            font-size: 20px;
+            width: 80%;
+            text-align: justify;
+        }
+
+        td p{
+            width: 500px;
+            left: 3px;
+        }
+
+        td{
+            padding: 5px;
+        }
+
+        main h3{
+            border: 1px solid palevioletred;
+            background-color: palevioletred;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .preco{
+            color: black;
+            font-size: 25px;
+        }
+
+        table p{
+            width: 500px;
+        }
+
+        #titulo{
+            font-size: 40px;
+            padding: 20px;
+            background-color: #e23a6b;
+            margin: 20px 0;
+            color: white;
+            border-radius: 10px;
+        }
+
+        footer ul{
+            display: flex;
+            justify-content: center;
+            border: 2px solid palevioletred;
+            background-color: palevioletred;
+            list-style-type: none;
+            padding: 16px;
+            border-radius: 10px;
+        }
+        
+        footer li{
+            padding: 15px 20px;
+            bottom: 15px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        div a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 10px;
+            color: black;
+            font-size: 26px;
+        }
+        
+        #insta{
+            height: 60px;
+            width: 60px;
+            transition: transform 0.8s;
+        }
+        
+        #whats{
+            height: 60px;
+            width: 60px;
+            padding: 0 5px;
+            transition: transform 0.8s;
+        }
+        
+        #insta:hover{
+            transform: scale(1.1);
+        }
+        
+        #whats:hover{
+            transform: scale(1.1);
+        }
+
+        ul{
+            list-style-type: none;
+        }
+    </style>
+    <nav>
+        <ul>
+            <li>
+                <a href="cestas.html">Cestas</a>
+            </li>
+            <li>
+                <a href="kits.html">Kits</a>
+            </li>
+            <li>
+                <a href="index.html">Início</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h2 id="titulo">Presentes</h2>
+        <h1>Patty Cestas e Presentes</h1>
+        <h2 id="abc">Um presente afetivo e inesquecível</h2>
+        <div class="centro">
+            <img src="./inicial/f753895b-52b2-4383-8b70-ac165265c375.jpg" alt="logo cestas">
+        </div>
+        <h2 id="abc">Carinho, personalização e amor em cada detalhes</h2>
+    </header>
+    <main>
+        <section class="centro">
+            <h2><a href="#" target="_blank">Canecas Personalizadas</a></h2>
+            <ul>
+                <li><a href="#" target="_blank"><img src="./presentes/WhatsApp Image 2023-05-08 at 20.00.04.jpeg" alt="presente" class="foto"></a></li>
+            </ul>
+            <h3 class="preco"> Valor Unitário: R$ 35,00</h3>
+        </section>
+        <section class="centro">
+            <h2> <a href="#">Chaveiros</a></h2>
+            <ul>
+                <li><a href="#" target="_blank"><img src="./presentes/WhatsApp Image 2023-05-08 at 20.00.22.jpeg" alt="presente" class="foto"></a></li>
+                <li>
+                    <p>Chaveiros de Coração</p>
+                    <p>Chaveiros com foto e/ou frase</p>
+                </li>
+            </ul>
+            <h3 class="preco"> Chaveiro Coração: R$ 5,00</h3>
+            <h3 class="preco"> Chaveiro Com Foto: R$ 10,00</h3>
+        </section>
+        <section class="centro">
+            <h2><a href="#" target="_blank">Caneca Personalizada na Caixa Explosiva</a></h2>
+            <ul>
+                <li><a href="#" target="_blank"><img src="./presentes/WhatsApp Image 2023-05-08 at 20.01.11.jpeg" alt="presente" class="foto"></a></li>
+                <li><a href="#" target="_blank"><img src="./presentes/Sem Título-1.jpg" alt="presente"></a></li>
+            </ul>
+            <h3 class="preco"> Valor: R$ 55,00</h3>
+        </section>
+        <section class="centro">
+            <h2><a href="#" target="_blank">Caixinha para Mimos</a></h2>
+            <h3>Chocolates, Brigadeiros, Brincos de pérola(tag)</h3>
+            <ul>
+                <li><a href="#" target="_blank"><img src="./presentes/WhatsApp Image 2023-05-08 at 20.01.32.jpeg" alt="presente" class="foto"></a></li>
+            </ul>
+            <h3 class="preco"> Valor Unitário: R$ 15,00</h3>
+        </section>
+        <section class="centro">
+            <h2><a href="#" target="_blank">Ursinho de Pelúcia</a></h2>
+            <ul>
+                <li><a href="#" target="_blank"><img src="./presentes/WhatsApp Image 2023-05-08 at 20.02.14.jpeg" alt="presente" class="foto"></a></li>
+                <li><p>Diversos modelos</p></li>
+            </ul>
+            <h3 class="preco"> A partir de: R$ 35,00</h3>
+        </section>
+        <section class="centro">
+            <h2><a href="#" target="_blank">Pelúcia Mãozinha de Coração</a></h2>
+            <ul>
+                <li><a href="#" target="_blank"><img src="./presentes/WhatsApp Image 2023-05-08 at 20.02.31.jpeg" alt="presente" class="foto"></a></li>
+            </ul>
+            <h3 class="preco"> A partir de: R$ 25,00</h3>
+        </section>
+</body>
+<footer>
+    <div>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/pattycestasepresentes/" target="_blank">
+                    <img id="insta" src="./inicial/2a.png" alt="instagram">
+                    <p>Instagram</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://api.whatsapp.com/send/?phone=5598988459477&text&type=phone_number&app_absent=0" target="_blank">
+                    <img id="whats" src="./inicial/1a.png" alt="whatsapp">
+                    <p>WhatsApp</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</html>
